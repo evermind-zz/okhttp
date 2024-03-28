@@ -144,7 +144,7 @@ class AndroidPlatform : Platform() {
       else -> {
         // Fail Fast
         check(
-            Build.VERSION.SDK_INT >= 21) { "Expected Android API level 21+ but was ${Build.VERSION.SDK_INT}" }
+            Build.VERSION.SDK_INT >= 19) { "Expected Android API level 21+ but was ${Build.VERSION.SDK_INT}" }
 
         true
       }
